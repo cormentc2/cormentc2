@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CORMENT-C2 - DDoS Tools Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #c00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .hero {
+      padding: 40px;
+      text-align: center;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #ddd;
+    }
+    .cta {
+      margin-top: 20px;
+    }
+    .cta a {
+      background-color: #c00;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product h3 {
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      color: #888;
+    }
+    .socials a {
+      color: #c00;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CORMENT-C2</h1>
+    <p>Advanced DDoS Tools Shop</p>
+  </header>
+
+  <section class="hero">
+    <p>Jual berbagai tools untuk kebutuhan DDoS testing dan edukasi jaringan.</p>
+    <div class="cta">
+      <a href="#products">Lihat Produk</a>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="product">
+      <h3>HTTP FLOODER</h3>
+      <p>Tool powerful untuk tes layer 7 website.</p>
+    </div>
+    <div class="product">
+      <h3>UDP FLOODER</h3>
+      <p>Cocok untuk simulasi serangan layer 4.</p>
+    </div>
+    <div class="product">
+      <h3>BOTNET PANEL</h3>
+      <p>Panel kontrol multiple host untuk edukasi jaringan.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Hubungi Kami:</p>
+    <div class="socials">
+      <a href="https://t.me/yourtelegram">Telegram</a>
+      <a href="mailto:contact@cormentc2.site">Email</a>
+      <a href="https://github.com/yourgithub">GitHub</a>
+    </div>
+    <p>&copy; 2025 CORMENT-C2. All rights reserved.</p>
+  </footer>
+</body>
+</html>
